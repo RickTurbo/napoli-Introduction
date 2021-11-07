@@ -4,7 +4,7 @@ import { Box, Container, Flex, Grid, Heading } from "@chakra-ui/layout";
 import React from "react";
 
 import napoliLogo from "../assets/napoli-logo.jpeg";
-import napoliMembers from "../assets/IMG_3806.JPG";
+import napoliMembers from "../assets/IMG_3607.JPG";
 import Lozano from "../assets/Lozano.JPG";
 import Insigne from "../assets/Insigne.PNG";
 import Petagna from "../assets/Petagna.JPG";
