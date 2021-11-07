@@ -21,9 +21,9 @@ function Banner() {
   return (
     <>
       <header>
-        <Flex alignItems="center" justifyContent="space-between" ml={6} mr={6} bg='gray'>
-          <Box zIndex='2'>
-            <Image boxSize="90px" src={napoliLogo} alt="brand"  />
+        <Flex alignItems="center" justifyContent="space-between" ml={6} mr={6}>
+          <Box zIndex="2">
+            <Image boxSize="90px" src={napoliLogo} alt="brand" />
           </Box>
           <Box>
             <Button pr={3} colorScheme="gray.600" fontSize="lg" variant="link">
@@ -73,7 +73,6 @@ function Banner() {
           <Heading>
             <Box>ナポリの選手紹介</Box>
           </Heading>
-
         </Container>
       </Box>
 
@@ -94,7 +93,7 @@ function Banner() {
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left" color="teal"　>
+                    <Box flex="1" textAlign="left" color="teal">
                       Hirving Lozano
                     </Box>
                     <AccordionIcon />
@@ -109,7 +108,15 @@ function Banner() {
               </AccordionItem>
             </Accordion>
           </Box>
-          <Box>
+          <Box
+            mt={{
+              sm: "10",
+              md: "0",
+              lg: "0",
+              xl: "0",
+              base: "10",
+            }}
+          >
             <Image w="100%" src={Insigne} borderRadius="lg" />
             <Accordion defaultIndex={[0]} allowMultiple mt={5}>
               <AccordionItem>
@@ -130,7 +137,15 @@ function Banner() {
               </AccordionItem>
             </Accordion>
           </Box>
-          <Box>
+          <Box
+            mt={{
+              sm: "10",
+              md: "0",
+              lg: "0",
+              xl: "0",
+              base: "10",
+            }}
+          >
             <Image w="100%" src={Petagna} borderRadius="lg" />
             <Accordion defaultIndex={[0]} allowMultiple mt={3}>
               <AccordionItem>
@@ -151,7 +166,15 @@ function Banner() {
               </AccordionItem>
             </Accordion>
           </Box>
-          <Box>
+          <Box
+            mt={{
+              sm: "10",
+              md: "0",
+              lg: "0",
+              xl: "0",
+              base: "10",
+            }}
+          >
             <Image w="100%" src={Osimhen} borderRadius="lg" />
             <Accordion defaultIndex={[0]} allowMultiple mt={5}>
               <AccordionItem>
@@ -159,27 +182,6 @@ function Banner() {
                   <AccordionButton>
                     <Box flex="1" textAlign="left" color="teal">
                       Victor Osimhen
-                    </Box>
-                    <AccordionIcon />
-                  </AccordionButton>
-                </h2>
-                <AccordionPanel pb={4}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </AccordionPanel>
-              </AccordionItem>
-            </Accordion>
-          </Box>
-          <Box>
-            <Image w="100%" src={Lozano} borderRadius="lg" />
-            <Accordion defaultIndex={[0]} allowMultiple mt={5}>
-              <AccordionItem>
-                <h2>
-                  <AccordionButton>
-                    <Box flex="1" textAlign="left" color="teal"　>
-                      Hirving Lozano
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
