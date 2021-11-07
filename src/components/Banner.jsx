@@ -21,9 +21,9 @@ function Banner() {
   return (
     <>
       <header>
-        <Flex alignItems="center" justifyContent="space-between" ml={6} mr={6}>
-          <Box>
-            <Image boxSize="90px" src={napoliLogo} alt="brand" />
+        <Flex alignItems="center" justifyContent="space-between" ml={6} mr={6} bg='gray'>
+          <Box zIndex='2'>
+            <Image boxSize="90px" src={napoliLogo} alt="brand"  />
           </Box>
           <Box>
             <Button pr={3} colorScheme="gray.600" fontSize="lg" variant="link">
@@ -56,7 +56,7 @@ function Banner() {
                 </Box>
               </Heading>
               <Box mt="6" fontWeight="medium">
-                sscnapoliの選手たちを紹介します
+                ssc　napoliの選手たちを紹介します
               </Box>
             </Box>
 
@@ -159,6 +159,27 @@ function Banner() {
                   <AccordionButton>
                     <Box flex="1" textAlign="left" color="teal">
                       Victor Osimhen
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </AccordionPanel>
+              </AccordionItem>
+            </Accordion>
+          </Box>
+          <Box>
+            <Image w="100%" src={Lozano} borderRadius="lg" />
+            <Accordion defaultIndex={[0]} allowMultiple mt={5}>
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box flex="1" textAlign="left" color="teal"　>
+                      Hirving Lozano
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
