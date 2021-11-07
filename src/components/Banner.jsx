@@ -55,7 +55,7 @@ function Banner() {
                   イタリアのサッカーチーム　SSC　NAPOLIについて紹介します
                 </Box>
               </Heading>
-              <Box mt="6" fontWeight="medium">
+              <Box mt="6" fontWeight="medium"　mb='6'>
                 SSC　NAPOLIの選手たちを紹介します
               </Box>
             </Box>
