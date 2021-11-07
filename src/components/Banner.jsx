@@ -56,7 +56,7 @@ function Banner() {
                 </Box>
               </Heading>
               <Box mt="6" fontWeight="medium">
-                sscnapoliの選手たちを紹介しますあああああああああああああああああああああああああ
+                sscnapoliの選手たちを紹介します
               </Box>
             </Box>
 
