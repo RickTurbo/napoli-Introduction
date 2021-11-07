@@ -89,7 +89,7 @@ function Banner() {
         >
           <Box>
             <Image w="100%" src={Lozano} borderRadius="lg" />
-            <Accordion defaultIndex={[0]} allowMultiple mt={5}>
+            <Accordion allowToggle mt={5}>
               <AccordionItem>
                 <h2>
                   <AccordionButton>
@@ -108,6 +108,7 @@ function Banner() {
               </AccordionItem>
             </Accordion>
           </Box>
+
           <Box
             mt={{
               sm: "10",
@@ -118,7 +119,7 @@ function Banner() {
             }}
           >
             <Image w="100%" src={Insigne} borderRadius="lg" />
-            <Accordion defaultIndex={[0]} allowMultiple mt={5}>
+            <Accordion allowToggle mt={5}>
               <AccordionItem>
                 <h2>
                   <AccordionButton>
@@ -137,6 +138,7 @@ function Banner() {
               </AccordionItem>
             </Accordion>
           </Box>
+
           <Box
             mt={{
               sm: "10",
@@ -147,7 +149,7 @@ function Banner() {
             }}
           >
             <Image w="100%" src={Petagna} borderRadius="lg" />
-            <Accordion defaultIndex={[0]} allowMultiple mt={3}>
+            <Accordion allowToggle mt={5}>
               <AccordionItem>
                 <h2>
                   <AccordionButton>
@@ -166,6 +168,7 @@ function Banner() {
               </AccordionItem>
             </Accordion>
           </Box>
+
           <Box
             mt={{
               sm: "10",
@@ -176,7 +179,7 @@ function Banner() {
             }}
           >
             <Image w="100%" src={Osimhen} borderRadius="lg" />
-            <Accordion defaultIndex={[0]} allowMultiple mt={5}>
+            <Accordion allowToggle mt={5}>
               <AccordionItem>
                 <h2>
                   <AccordionButton>
