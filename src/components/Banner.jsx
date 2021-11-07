@@ -56,7 +56,7 @@ function Banner() {
                 </Box>
               </Heading>
               <Box mt="6" fontWeight="medium">
-                ssc　napoliの選手たちを紹介します
+                SSC　NAPOLIの選手たちを紹介します
               </Box>
             </Box>
 
