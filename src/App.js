@@ -1,10 +1,10 @@
-import './App.css';
-import Banner from './components/Banner';
+import "./App.css";
+import Banner from "./components/Banner";
 
 function App() {
   return (
     <>
-    <Banner />
+      <Banner />
     </>
   );
 }

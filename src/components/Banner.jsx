@@ -1,4 +1,4 @@
-import { Button } from "@chakra-ui/button";
+import { IconButton } from "@chakra-ui/button";
 import { Image } from "@chakra-ui/image";
 import { Box, Container, Flex, Grid, Heading } from "@chakra-ui/layout";
 import React from "react";
@@ -20,8 +20,14 @@ import {
   AccordionItem,
   AccordionPanel,
 } from "@chakra-ui/accordion";
+import { useColorMode } from "@chakra-ui/color-mode";
+
+import { FaSun, FaMoon } from "react-icons/fa";
 
 function Banner() {
+  const { colorMode, toggleColorMode } = useColorMode();
+  const isDark = colorMode === "dark";
+
   return (
     <>
       <header>
@@ -30,12 +36,13 @@ function Banner() {
             <Image boxSize="90px" src={napoliLogo} alt="brand" />
           </Box>
           <Box>
-            <Button pr={3} colorScheme="gray.600" fontSize="lg" variant="link">
-              Log in
-            </Button>
-            <Button colorScheme="gray.600" fontSize="lg" variant="link">
-              Sign up
-            </Button>
+            <IconButton
+              ml={8}
+              icon={isDark ? <FaSun /> : <FaMoon />}
+              isRound="true"
+              onClick={toggleColorMode}
+            ></IconButton>
+          
           </Box>
         </Flex>
       </header>
@@ -55,12 +62,10 @@ function Banner() {
           >
             <Box>
               <Heading>
-                <Box>
-                  イタリアのサッカーチーム　SSC　NAPOLIについて紹介します
-                </Box>
+                <Box>イタリアのサッカーチーム SSC NAPOLIについて紹介します</Box>
               </Heading>
               <Box mt="6" fontWeight="medium" mb="6">
-                SSC　NAPOLIの選手たちを紹介します
+                SSC NAPOLIの選手たちを紹介します
               </Box>
             </Box>
 
@@ -97,7 +102,7 @@ function Banner() {
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left" color="teal">
+                    <Box flex="1" textAlign="left"  color={isDark ? "gray.200" : "teal"}>
                       Hirving Lozano
                     </Box>
                     <AccordionIcon />
@@ -127,7 +132,7 @@ function Banner() {
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left" color="teal">
+                    <Box flex="1" textAlign="left" color={isDark ? "gray.200" : "teal"}>
                       Lorenzo Insigne
                     </Box>
                     <AccordionIcon />
@@ -157,7 +162,7 @@ function Banner() {
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left" color="teal">
+                    <Box flex="1" textAlign="left" color={isDark ? "gray.200" : "teal"}>
                       Andrea Petagna
                     </Box>
                     <AccordionIcon />
@@ -187,7 +192,7 @@ function Banner() {
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left" color="teal">
+                    <Box flex="1" textAlign="left" color={isDark ? "gray.200" : "teal"}>
                       Victor Osimhen
                     </Box>
                     <AccordionIcon />
@@ -217,7 +222,7 @@ function Banner() {
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left" color="teal">
+                    <Box flex="1" textAlign="left" color={isDark ? "gray.200" : "teal"}>
                       Matteo Politano
                     </Box>
                     <AccordionIcon />
@@ -247,7 +252,7 @@ function Banner() {
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left" color="teal">
+                    <Box flex="1" textAlign="left" color={isDark ? "gray.200" : "teal"}>
                       Piotr Zieliński
                     </Box>
                     <AccordionIcon />
@@ -277,7 +282,7 @@ function Banner() {
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left" color="teal">
+                    <Box flex="1" textAlign="left" color={isDark ? "gray.200" : "teal"}>
                       Elif Elmas
                     </Box>
                     <AccordionIcon />
@@ -302,12 +307,12 @@ function Banner() {
               base: "10",
             }}
           >
-            <Image w="100%" src={Rrahmani} borderRadius="lg"  />
+            <Image w="100%" src={Rrahmani} borderRadius="lg" />
             <Accordion allowToggle mt={5}>
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left" color="teal">
+                    <Box flex="1" textAlign="left" color={isDark ? "gray.200" : "teal"}>
                       Amir Rrahmani
                     </Box>
                     <AccordionIcon />
