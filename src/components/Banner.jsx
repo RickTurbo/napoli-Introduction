@@ -4,7 +4,7 @@ import { Box, Container, Flex, Grid, Heading } from "@chakra-ui/layout";
 import React from "react";
 
 import napoliLogo from "../assets/napoli-logo.jpeg";
-import napoliMembers from "../assets/IMG_3607.JPG";
+// import napoliMembers from "../assets/IMG_3607.JPG";
 import Lozano from "../assets/Lozano.JPG";
 import Insigne from "../assets/Insigne.PNG";
 import Petagna from "../assets/Petagna.JPG";
@@ -13,7 +13,7 @@ import Politano from "../assets/Politano.JPG";
 import Zielinski from "../assets/Zielinski.JPG";
 import Elmas from "../assets/Elmas.JPG";
 import Rrahmani from "../assets/Rrahmani.JPG";
-import napoli from "../assets/2021-11-08 22.52のイメージ.jpg"
+import napoli from "../assets/napoli_1.jpg";
 
 import {
   Accordion,
