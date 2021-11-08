@@ -9,6 +9,10 @@ import Lozano from "../assets/Lozano.JPG";
 import Insigne from "../assets/Insigne.PNG";
 import Petagna from "../assets/Petagna.JPG";
 import Osimhen from "../assets/Osimhen.JPG";
+import Politano from "../assets/Politano.JPG";
+import Zielinski from "../assets/Zielinski.JPG";
+import Elmas from "../assets/Elmas.JPG";
+import Rrahmani from "../assets/Rrahmani.JPG";
 import {
   Accordion,
   AccordionButton,
@@ -55,7 +59,7 @@ function Banner() {
                   イタリアのサッカーチーム　SSC　NAPOLIについて紹介します
                 </Box>
               </Heading>
-              <Box mt="6" fontWeight="medium"　mb='6'>
+              <Box mt="6" fontWeight="medium" mb="6">
                 SSC　NAPOLIの選手たちを紹介します
               </Box>
             </Box>
@@ -185,6 +189,126 @@ function Banner() {
                   <AccordionButton>
                     <Box flex="1" textAlign="left" color="teal">
                       Victor Osimhen
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </AccordionPanel>
+              </AccordionItem>
+            </Accordion>
+          </Box>
+
+          <Box
+            mt={{
+              sm: "10",
+              md: "0",
+              lg: "0",
+              xl: "0",
+              base: "10",
+            }}
+          >
+            <Image w="100%" src={Politano} borderRadius="lg" />
+            <Accordion allowToggle mt={5}>
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box flex="1" textAlign="left" color="teal">
+                      Matteo Politano
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </AccordionPanel>
+              </AccordionItem>
+            </Accordion>
+          </Box>
+
+          <Box
+            mt={{
+              sm: "10",
+              md: "0",
+              lg: "0",
+              xl: "0",
+              base: "10",
+            }}
+          >
+            <Image w="100%" src={Zielinski} borderRadius="lg" />
+            <Accordion allowToggle mt={5}>
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box flex="1" textAlign="left" color="teal">
+                      Piotr Zieliński
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </AccordionPanel>
+              </AccordionItem>
+            </Accordion>
+          </Box>
+
+          <Box
+            mt={{
+              sm: "10",
+              md: "0",
+              lg: "0",
+              xl: "0",
+              base: "10",
+            }}
+          >
+            <Image w="100%" src={Elmas} borderRadius="lg" />
+            <Accordion allowToggle mt={5}>
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box flex="1" textAlign="left" color="teal">
+                      Elif Elmas
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </AccordionPanel>
+              </AccordionItem>
+            </Accordion>
+          </Box>
+
+          <Box
+            mt={{
+              sm: "10",
+              md: "0",
+              lg: "0",
+              xl: "0",
+              base: "10",
+            }}
+          >
+            <Image w="100%" src={Rrahmani} borderRadius="lg"  />
+            <Accordion allowToggle mt={5}>
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box flex="1" textAlign="left" color="teal">
+                      Amir Rrahmani
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
