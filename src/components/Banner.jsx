@@ -13,6 +13,8 @@ import Politano from "../assets/Politano.JPG";
 import Zielinski from "../assets/Zielinski.JPG";
 import Elmas from "../assets/Elmas.JPG";
 import Rrahmani from "../assets/Rrahmani.JPG";
+import napoli from "../assets/2021-11-08 22.52のイメージ.jpg"
+
 import {
   Accordion,
   AccordionButton,
@@ -74,7 +76,7 @@ function Banner() {
             <Box w="100%">
               <Image
                 w="100%"
-                src={napoliMembers}
+                src={napoli}
                 alt="members"
                 borderRadius="lg"
               />
