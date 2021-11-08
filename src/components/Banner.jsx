@@ -66,7 +66,7 @@ function Banner() {
               >
                 <Box>イタリアのサッカーチーム SSC NAPOLIについて紹介します</Box>
               </Heading>
-              <Box mt="6" fontWeight="medium" mb="6" fontSize='xl' >
+              <Box mt="6" fontWeight="medium" mb="6" fontSize="xl">
                 SSC NAPOLIの選手たちを紹介します
               </Box>
             </Box>
@@ -108,6 +108,7 @@ function Banner() {
                       flex="1"
                       textAlign="left"
                       color={isDark ? "gray.200" : "teal"}
+                      fontWeight='bold'
                     >
                       Hirving Lozano
                     </Box>
@@ -142,6 +143,7 @@ function Banner() {
                       flex="1"
                       textAlign="left"
                       color={isDark ? "gray.200" : "teal"}
+                      fontWeight='bold'
                     >
                       Lorenzo Insigne
                     </Box>
@@ -176,6 +178,7 @@ function Banner() {
                       flex="1"
                       textAlign="left"
                       color={isDark ? "gray.200" : "teal"}
+                      fontWeight='bold'
                     >
                       Andrea Petagna
                     </Box>
@@ -210,6 +213,7 @@ function Banner() {
                       flex="1"
                       textAlign="left"
                       color={isDark ? "gray.200" : "teal"}
+                      fontWeight='bold'
                     >
                       Victor Osimhen
                     </Box>
@@ -244,6 +248,7 @@ function Banner() {
                       flex="1"
                       textAlign="left"
                       color={isDark ? "gray.200" : "teal"}
+                      fontWeight='bold'
                     >
                       Matteo Politano
                     </Box>
@@ -278,6 +283,7 @@ function Banner() {
                       flex="1"
                       textAlign="left"
                       color={isDark ? "gray.200" : "teal"}
+                      fontWeight='bold'
                     >
                       Piotr Zieliński
                     </Box>
@@ -312,6 +318,7 @@ function Banner() {
                       flex="1"
                       textAlign="left"
                       color={isDark ? "gray.200" : "teal"}
+                      fontWeight='bold'
                     >
                       Elif Elmas
                     </Box>
@@ -346,6 +353,7 @@ function Banner() {
                       flex="1"
                       textAlign="left"
                       color={isDark ? "gray.200" : "teal"}
+                      fontWeight='bold'
                     >
                       Amir Rrahmani
                     </Box>

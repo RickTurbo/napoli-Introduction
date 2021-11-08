@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 import Neapolitan from "./components/Neapolitan";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Banner />
       <Neapolitan/>
+      <Footer/>
     </>
   );
 }
