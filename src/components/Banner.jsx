@@ -1,4 +1,4 @@
-import { IconButton } from "@chakra-ui/button";
+import { Button, IconButton } from "@chakra-ui/button";
 import { Image } from "@chakra-ui/image";
 import { Box, Container, Flex, Grid, Heading } from "@chakra-ui/layout";
 import React from "react";
@@ -42,7 +42,6 @@ function Banner() {
               isRound="true"
               onClick={toggleColorMode}
             ></IconButton>
-          
           </Box>
         </Flex>
       </header>
@@ -102,7 +101,11 @@ function Banner() {
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left"  color={isDark ? "gray.200" : "teal"}>
+                    <Box
+                      flex="1"
+                      textAlign="left"
+                      color={isDark ? "gray.200" : "teal"}
+                    >
                       Hirving Lozano
                     </Box>
                     <AccordionIcon />
@@ -132,7 +135,11 @@ function Banner() {
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left" color={isDark ? "gray.200" : "teal"}>
+                    <Box
+                      flex="1"
+                      textAlign="left"
+                      color={isDark ? "gray.200" : "teal"}
+                    >
                       Lorenzo Insigne
                     </Box>
                     <AccordionIcon />
@@ -162,7 +169,11 @@ function Banner() {
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left" color={isDark ? "gray.200" : "teal"}>
+                    <Box
+                      flex="1"
+                      textAlign="left"
+                      color={isDark ? "gray.200" : "teal"}
+                    >
                       Andrea Petagna
                     </Box>
                     <AccordionIcon />
@@ -192,7 +203,11 @@ function Banner() {
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left" color={isDark ? "gray.200" : "teal"}>
+                    <Box
+                      flex="1"
+                      textAlign="left"
+                      color={isDark ? "gray.200" : "teal"}
+                    >
                       Victor Osimhen
                     </Box>
                     <AccordionIcon />
@@ -222,7 +237,11 @@ function Banner() {
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left" color={isDark ? "gray.200" : "teal"}>
+                    <Box
+                      flex="1"
+                      textAlign="left"
+                      color={isDark ? "gray.200" : "teal"}
+                    >
                       Matteo Politano
                     </Box>
                     <AccordionIcon />
@@ -252,7 +271,11 @@ function Banner() {
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left" color={isDark ? "gray.200" : "teal"}>
+                    <Box
+                      flex="1"
+                      textAlign="left"
+                      color={isDark ? "gray.200" : "teal"}
+                    >
                       Piotr Zieliński
                     </Box>
                     <AccordionIcon />
@@ -282,7 +305,11 @@ function Banner() {
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left" color={isDark ? "gray.200" : "teal"}>
+                    <Box
+                      flex="1"
+                      textAlign="left"
+                      color={isDark ? "gray.200" : "teal"}
+                    >
                       Elif Elmas
                     </Box>
                     <AccordionIcon />
@@ -312,7 +339,11 @@ function Banner() {
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left" color={isDark ? "gray.200" : "teal"}>
+                    <Box
+                      flex="1"
+                      textAlign="left"
+                      color={isDark ? "gray.200" : "teal"}
+                    >
                       Amir Rrahmani
                     </Box>
                     <AccordionIcon />
@@ -328,6 +359,21 @@ function Banner() {
             </Accordion>
           </Box>
         </Grid>
+
+        <Box>
+          <Box align="center" mt="16">
+            <Button
+              _hover={{ opacity: "0.8" }}
+              bg="blue.500"
+              color="#ffffff"
+              fontWeight="normal"
+              size="md"
+              mb="20"
+            >
+              もっと詳しく
+            </Button>
+          </Box>
+        </Box>
       </Container>
     </>
   );
