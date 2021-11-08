@@ -60,10 +60,13 @@ function Banner() {
             }}
           >
             <Box>
-              <Heading>
+              <Heading
+                bgGradient="linear(to-r, cyan.400,blue.500,purple.600)"
+                bgClip="text"
+              >
                 <Box>イタリアのサッカーチーム SSC NAPOLIについて紹介します</Box>
               </Heading>
-              <Box mt="6" fontWeight="medium" mb="6">
+              <Box mt="6" fontWeight="medium" mb="6" fontSize='xl' >
                 SSC NAPOLIの選手たちを紹介します
               </Box>
             </Box>
